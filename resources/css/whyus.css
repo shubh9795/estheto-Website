@@ -4,23 +4,22 @@
     position: absolute;
     width: 1140px;
     left: 67%;
-    top: 35%;
+    top: 53%;
     font-weight: bold;
     font-size: 18px;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
 }
 
 .main-para-box {
     position: absolute;
-    width: 1160px;
+    width: 1140px;
     left: 60%;
     top: 48%;
     transform: translate(-50%, -50%);
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(about.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(whyus.png);
     background-size: cover;
     background-position: center;
     height: 100vh;

@@ -1,1 +1,46 @@
 @import url(common.css);
+
+
+.main-text-box {
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    top: 30%;
+    font-weight: bold;
+    font-size: 9px;
+    transform: translate(-50%, -50%);
+}
+
+.main-para-box {
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.connect-text-box {
+    position: absolute;
+    width: 1140px;
+    left: 110%;
+    top: 30%;
+    font-weight: bold;
+    font-size: 9px;
+    transform: translate(-50%, -50%);
+}
+
+.email-text-box {
+    position: absolute;
+    width: 1140px;
+    left: 110%;
+    top: 40%;
+    font-weight: bold;
+    font-size: 7px;
+    transform: translate(-50%, -50%);
+}
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
