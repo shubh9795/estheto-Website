@@ -20,14 +20,7 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-
-.main-text-box {
-    position: absolute;
-    width: 1140px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    color: var(--header-text-color);
 }
 
 .btn:link,
@@ -107,18 +100,34 @@ header {
 
 
 /* --------- Body -------- */
+.container {
+    position: absolute;
+    width: 1140px;
+    left: 50%;
+    transform: translate(-50%, -20%);
+}
+
 .box {
   float: left;
   padding: 25px 5px 25px 5px;
   width: 30%;
   margin: 10px;
   text-align: center;
-  background-color:#fcfcfc;
-  border: var(--main-text-color) 1px solid;
+  border: var(--main-theme-color) 1px solid;
 }
 
-.box img{
+.box:hover {
+    background-color: var(--main-theme-color);
+    transition: background-color 0.6s;
+}
+.box-images{
   height: auto;
-  width: 90px;
+  width: 140px;
 }
 
+
+.in_body_headings {
+    color: var(--main-theme-color);
+    font-size: 2vw;
+    font-weight: 600;
+}
