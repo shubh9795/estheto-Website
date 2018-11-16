@@ -1,7 +1,38 @@
 @import url(common.css);
 
+/* Fonts or texts */
 h1 {
+     margin: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
     text-transform: uppercase;
+}
+
+h2 {
+    font-size: 150%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: var(--main-theme-color);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 125%;
+    text-transform: uppercase;
+    padding: 5px 0;
 }
 /* -----------Header------- */
 header {
@@ -108,26 +139,75 @@ header {
 }
 
 .box {
-  float: left;
-  padding: 25px 5px 25px 5px;
-  width: 30%;
-  margin: 10px;
-  text-align: center;
-  border: var(--main-theme-color) 1px solid;
+  padding: 3%;
+    text-align: center;
 }
 
-.box:hover {
-    background-color: var(--main-theme-color);
-    transition: background-color 0.6s;
+.box p{
+    font-size: 110%;
+    line-height: 145%;
 }
+
+
 .box-images{
   height: auto;
   width: 140px;
+    transform: scale(1);
+    transition: transform 0.5s;
 }
 
+.box-images:hover{
+  transform: scale(1.15);
+    transition: transform 0.5s;
+}
+.long-text {
+
+}
 
 .in_body_headings {
     color: var(--main-theme-color);
     font-size: 2vw;
     font-weight: 600;
 }
+
+.work_showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.work_showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.work_shocase_photo {
+
+}
+
+.work_showcase_photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.work_showcase_photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.work_showcase_photo img:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.section-showcase {
+    padding: 0;
+}
+
+

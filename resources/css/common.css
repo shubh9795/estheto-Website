@@ -1,15 +1,16 @@
 /*
 -------- Global Tags --------
 */
-:root{
-    --main-text-color : #000;
-    --main-theme-color : #cf6d17;
-    --branding-text-color : #fff;
-    --header-text-color : #fff;
-    --navbar-btn-text-color : #fff;
-    --navbar-btn-visited-text-color : #fff;
-    --navbar-btn-hover-color : #fff;
+:root {
+    --main-text-color: #000;
+    --main-theme-color: #cf6d17;
+    --branding-text-color: #fff;
+    --header-text-color: #fff;
+    --navbar-btn-text-color: #fff;
+    --navbar-btn-visited-text-color: #fff;
+    --navbar-btn-hover-color: #fff;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -31,35 +32,11 @@ html {
 
 /* --------- Text Elements ------------ */
 
-h1, h2 {
-   
+h1,
+h2 {
     font-weight: 300;
     letter-spacing: 1px;
-    
-}
 
-h1 {
-     margin: 0;
-    margin-bottom: 20px;
-    font-size: 240%;
-    word-spacing: 4px;
-}
-
-h2 {
-    font-size: 108%;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
 }
 
 /* -------------- Navigation Bar ------------ */
@@ -68,9 +45,9 @@ h2:after {
     width: 100vw;
     padding: 0% 10%;
     margin: 0 auto;
-    background-color: #de7519;
     height: 14%;
-    z-index:1;
+    z-index: 1;
+    transition: background-color 0.5s, height 0.5s;
 }
 
 section {
@@ -78,8 +55,8 @@ section {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -92,17 +69,18 @@ header {
     color: var(--branding-text-color);
 }
 
-.branding h1{
+.branding h1 {
     font-family: Lobster Two;
     font-size: 10vh;
     font-size: 4vw;
     padding-bottom: 0;
     text-transform: lowercase;
     margin-bottom: 0px;
-    margin-left: auto
+    margin-left: auto;
+    transition: font-size 0.5s;
 }
 
-.branding h4{
+.branding h4 {
     font-size: 5vh;
     font-size: 1.2vw;
 }
@@ -113,13 +91,13 @@ header {
     margin-top: 60px;
 }
 
-.main-nav li{
+.main-nav li {
     display: inline-block;
     margin-left: 40px;
 }
 
 .main-nav li a:link,
-.main-nav li a:visited{
+.main-nav li a:visited {
     padding: 8px 0;
     color: var(--navbar-btn-visited-text-color);
     text-decoration: none;
@@ -131,22 +109,38 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active{
+.main-nav li a:active {
     border-bottom: 2px solid var(--navbar-btn-hover-color);
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-    height: 14%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7%;
     background-color: #de7519;
     color: var(--navbar-btn-text-color);
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, height 0.5s;
+}
+
+.sticky .branding h1{
+    font-size: 7.5vh;
+    font-size: 3vw;
+    transition: font-size 0.5s;
+}
+
+.sticky .branding h4{
+    display: none;
+    transition: display 0.5s;
+}
+
+.sticky .main-nav {
+    margin-top: 20px;
+    transition: margin-top 0.5s;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 40px;
+    padding-top: 40px;
 }
