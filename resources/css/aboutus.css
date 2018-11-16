@@ -1,14 +1,11 @@
 @import url(common.css);
 
 .main-text-box {
-    position: absolute;
-    width: 1140px;
-    left: 67%;
-    top: 35%;
-    font-weight: bold;
-    font-size: 18px;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2.8rem;
+    padding: 2.5rem 0;
 }
 
 .main-para-box {
@@ -19,9 +16,18 @@
     transform: translate(-50%, -50%);
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(about.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.about-us-title {
+    padding: 4.3rem 0;
+    background-color: #83450f;
+}
+
+.about-us-title h2{
+    color: #f1b37d;
+}
+
+.about-us-title h5{
+    font-size: 1.5rem;
+    color: #fff;
+    padding-top: 0.8rem;
+    font-weight: 400;
 }

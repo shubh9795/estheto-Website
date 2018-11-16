@@ -3,7 +3,7 @@
 */
 :root {
     --main-text-color: #000;
-    --main-theme-color: #cf6d17;
+    --main-theme-color: #924d10;
     --branding-text-color: #fff;
     --header-text-color: #fff;
     --navbar-btn-text-color: #fff;
@@ -57,10 +57,6 @@ section {
 ul {
     margin: 0;
     padding: 0;
-}
-
-header {
-    height: 100vh;
 }
 
 
