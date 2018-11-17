@@ -31,3 +31,13 @@
     padding-top: 0.8rem;
     font-weight: 400;
 }
+
+.about-us-content-type-1 {
+    padding: 3rem 0;
+    background-color: #fcf2e8;
+    text-align: center;
+}
+
+.about-us-content-type-1 p {
+    font-size: 1.6rem;
+}
