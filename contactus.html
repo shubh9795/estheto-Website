@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <title>estheto | Welcome</title>
-    <!--<link rel="stylesheet" href="resources/css/aboutus.css">-->
+    <title>Contact us</title>
+    <link rel="stylesheet" href="resources/css/contactus.css">
+    <link rel="stylesheet" href="resources/css/rotatingtext.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/contactus.css">
-    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js' type='text/javascript'></script>
-    <script type="application/javascript" src="resources/js/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 <body>
-        <header>
-        <div class="main-nav-bar" id="navbar">
+   <!--   header   -->
+    <header>
+        <div class="main-nav-bar sticky" id="navbar">
 
             <div class="branding">
                 <h1>estheto</h1>
@@ -35,42 +36,87 @@
             </nav>
         </div>
     </header>
-    <div class="main-text-box">
-        <h1><b>Fill the below form and Send us your Query<br>we will get back to you shortly.</b></h1>
-    </div>
-   <!-- <div class="main-para-box">
-        Your Name:<br>
-        <input type="text" name="name"><br><br>
-        E-mail:<br>
-        <input type="text" name="mail"><br><br>
-        Message:<br>
-        <textarea rows="6" cols="19">
-</textarea><br><br>
-        <input type="submit" value="Send">
-    </div>-->
+    <!--   header   -->
     
-   <!-- <section id="enquiry">-->
-        <div class="main-para-box">
-           <!-- <h1>Ask for quote</h1>-->
-            <form class="enquiryform" action="index.html" method="post">
-                Enter your name<br><input type="name" name="name"><br><br>
-                Enter your Mobile number<br><input type="phonenumber" name="number"><br><br>
-                Enter your Email address<br><input type="email" name="email"><br><br>
-                Enter your query<br><textarea name="requirement" rows="8" cols="50"></textarea><br><br>
-                <button type="submit" name="enquire">Send Enquiry</button>
-            </form>
+    <!--    page body    -->
+    <section class="contact-us-title">
+        <div class="main-text-box">
+            <h2>we will love to hear from you!</h2>
         </div>
-   <!-- </section>-->
+    </section>
+    <section class="contact-us-body">
+        <div class="contact-us-form">
+            <div class="main-para-box">
+                <h2>Email Us</h2>
+                <form class="enquiryform" action="index.html" method="post">
+                    <span>Name</span><br><input type="name" name="name"><br><br>
+                    <span>Mobile number</span><br><input type="phonenumber" name="number"><br><br>
+                    <span>Email</span><br><input type="email" name="email"><br><br>
+                    <span>What is it about?</span><br><input type="subject" name="subject"><br><br>
+                    <span>Tell us more about it....</span><br><textarea name="requirement" rows="8" cols="50"></textarea><br><br>
+                    <button type="submit" name="enquire">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="other-info-bar">
+            <div class="FAQ-details">
+                <h2>FAQ</h2>
+                <p>Have any questions about our packages, offers, services?<br><br>
+                    You can find helpful answers to many common questions we’re asked in our <br><strong>FAQ section.</strong></p>
+            </div>
+            <div class="Call-Us">
+                <h2>Call Us</h2>
+                <p>Reach to us directly without any wait time<br><br>+91 89515 40163</p>
+            </div>
+            <div class="Global-HQ">
+                <h2>GlobalHQ</h2>
+                <p>Sector 16C, <br>Greater Noida West<br>Uttar Pradesh<br>India</p>
+            </div>
+        </div>
+    </section>
+    <!--    page body    -->
     
-    
-    <div class="connect-text-box">
-        <h1><b>Connect with us</b></h1>
+    <!--    <footer>-->
+    <div class="footer-main">
+        <div class="quote-bar">
+            <p>Let's create something amazing<br>
+                <i class="fas fa-arrow-right"></i></p>
+
+        </div>
+        <div class="footer-box">
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Galary</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-box-middle branding">
+            <h1>estheto</h1>
+            <h4>innovating esthetic solutions</h4>
+            <div class="social-buttons">
+                <a href="#"><i class="fab fa-facebook-square social-button"></i></a>
+                <a href="#"><i class="fab fa-twitter-square social-button"></i></a>
+                <a href="#"><i class="fab fa-instagram social-button"></i></a>
+                <a href="#"><i class="fab fa-linkedin social-button"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <ul>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
     </div>
-    
-     <div class="email-text-box">
-        <h3>For support or any questions<br><br> Email us at xyz@estheto.com<br><br>
-         Call us at +918050614586</h3>
+    <div class="sub-footer">
+        <div class="copyright-message">
+            <p>© 2018 Estheto. All Rights Reserved.</p>
+        </div>
     </div>
-    
+    <!--    </footer>-->
 </body>
+
 </html>

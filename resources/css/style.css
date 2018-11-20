@@ -36,7 +36,7 @@ h3 {
 }
 /* -----------Header------- */
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(main-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.81)), url(main-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -95,41 +95,6 @@ header {
     background-color: #cf6d17;
 }
 
-/* ------------ Top bar ------------ */
-/*
-.top-bar {
-  background-color: var(--main-text-color);
-  color: #ffffff;
-  margin: 0;
-  padding-top: : 0;
-  width: 100%;
-  height: 30px;
-  font-size: 12px;
-  position: relative;
-    font-weight: 800;
-}
-
-.top-bar h3{
-  margin: 0;
-  font-weight: lighter;
-  position: absolute;
-  padding-left: 30px;
-  padding-top: 5px;
-}
-
-#top-bar-email-icon {
-  height: 12px;
-  width: auto;
-}
-*/
-/*
-#main-banner-logo {
-  height: 90px;
-  width: 220px;
-}
-*/
-
-
 /* --------- Body -------- */
 .container {
     position: absolute;
@@ -139,8 +104,19 @@ header {
 }
 
 .box {
-  padding: 3%;
+  padding: 8% 3%;
     text-align: center;
+    border: 1px solid black;
+    height: 70vh;
+    box-shadow: 1px 1px 1px 1px #888888;
+    transform: scale(1);
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.box:hover {
+    box-shadow: 2px 2px 2px 2px #888888;
+    transform: scale(1.01);
+    transition: transform 0.5s, box-shadow 0.5s;
 }
 
 .box p{
@@ -152,16 +128,11 @@ header {
 .box-images{
   height: auto;
   width: 140px;
-    transform: scale(1);
-    transition: transform 0.5s;
 }
 
-.box-images:hover{
-  transform: scale(1.15);
-    transition: transform 0.5s;
-}
-.long-text {
-
+.connect-images{
+  height: auto;
+  width: 40px;
 }
 
 .in_body_headings {
@@ -180,10 +151,6 @@ header {
     float: left;
     width: 25%;
     height: auto;
-}
-
-.work_shocase_photo {
-
 }
 
 .work_showcase_photo {
@@ -208,6 +175,7 @@ header {
 
 .section-showcase {
     padding: 0;
+    margin: 0;
 }
 
 

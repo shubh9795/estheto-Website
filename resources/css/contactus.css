@@ -1,46 +1,119 @@
 @import url(common.css);
 
+.contact-us-title {
+    padding: 3rem 0;
+    background-color: #83450f;
+}
+
+.contact-us-title h2 {
+    color: #f1b37d;
+}
 
 .main-text-box {
-    position: absolute;
-    width: 1140px;
-    left: 50%;
-    top: 30%;
-    font-weight: bold;
-    font-size: 9px;
-    transform: translate(-50%, -50%);
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1.5rem 0 0 0;
 }
 
-.main-para-box {
-    position: absolute;
-    width: 1140px;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
+.contact-us-body {
+    color: #271404;
 }
 
-.connect-text-box {
-    position: absolute;
-    width: 1140px;
-    left: 110%;
-    top: 30%;
-    font-weight: bold;
-    font-size: 9px;
-    transform: translate(-50%, -50%);
+.contact-us-body h2{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0;
+    color: #83450f;
 }
 
-.email-text-box {
-    position: absolute;
-    width: 1140px;
-    left: 110%;
-    top: 40%;
-    font-weight: bold;
-    font-size: 7px;
-    transform: translate(-50%, -50%);
+.contact-us-body span{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+
+.contact-us-body input{
+    display: block;
+    width:80%;
+    height:2.5rem;
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #271404;
+    outline-style: none;
+    outline-color: #83450f;
+}
+
+.contact-us-body textarea{
+    width:80%;
+    height:15%;
+    margin-top: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #271404;
+}
+
+.contact-us-body button{
+    width:35%;
+    height: 3rem;
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #271404;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: #83450f;
+    border-width: 0.15rem;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.contact-us-body button:hover{
+    width:35%;
+    height: 3rem;
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #83450f;
+    border-color: #83450f;
+    border-width: 0.15rem;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.contact-us-form {
+    float: left;
+    margin-left: 18%;
+    margin-right: 2%;
+    width: 40%;
+}
+
+.other-info-bar {
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 18%;
+}
+
+.other-info-bar p {
+    font-size: 1.15rem;
+}
+
+.FAQ-details:after, .Call-Us:after {
+    display: block;
+    height: 1px;
+    background-color: #83450f;
+    content: " ";
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+body {
+/*    background-color: #fcf2e8;*/
 }

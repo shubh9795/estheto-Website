@@ -21,11 +21,11 @@
     background-color: #83450f;
 }
 
-.about-us-title h2{
+.about-us-title h2 {
     color: #f1b37d;
 }
 
-.about-us-title h5{
+.about-us-title h5 {
     font-size: 1.5rem;
     color: #fff;
     padding-top: 0.8rem;
@@ -33,11 +33,60 @@
 }
 
 .about-us-content-type-1 {
-    padding: 3rem 0;
+    padding: 3rem 10rem;
     background-color: #fcf2e8;
     text-align: center;
 }
 
-.about-us-content-type-1 p {
+.about-us-content-type-2 {
+    padding: 3rem 10rem;
+    background-color: #fbe9d9;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+p {
     font-size: 1.6rem;
+    letter-spacing: 0.05rem;
+}
+
+.about-us-content-type-2 p {
+    padding: 2rem 0;
+}
+
+.name-story {
+    margin: 2rem 7rem 5rem 7rem;
+    padding: 3rem 3rem;
+    background-color: #fff;
+}
+
+.arrow-down-type-1 {
+    width: 0;
+    height: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid #fcf2e8;
+    margin-left: 48%;
+
+}
+
+.arrow-container-type-1 {
+    background-color: #fbe9d9;
+}
+.arrow-down-type-2 {
+    width: 0;
+    height: 0;
+    border-left: 2rem solid transparent;
+    border-right: 2rem solid transparent;
+    border-top: 2rem solid #fbe9d9;
+    margin-left: 47%;
+
+}
+
+.arrow-container-type-2 {
+    background-color: #fcf2e8;
 }
