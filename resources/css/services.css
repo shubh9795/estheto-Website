@@ -1,0 +1,82 @@
+@import url(common.css);
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.paid {
+    color: blue;
+}
+
+.tableNote {
+    float: right;
+}
+
+.packageCol {
+    float: left;
+    width: 33.3%;
+    text-decoration: none;
+    list-style: none;
+    margin: 2rem 0;
+    padding: 8px;
+}
+
+.featureList {
+    list-style-type: none;
+    border-collapse: separate;
+    border: 1px solid #eee;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.featureList:hover {
+    -webkit-box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.featureList .header {
+    background-color: #83450f;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.featureList li {
+    border-bottom: 1px solid #fbe9d9;
+    padding: 2vw;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.featureList .price,
+.order {
+    background-color: #fbe9d9;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.orderButton {
+    background-color: #83450f;
+    border: none;
+    color: white;
+    padding: 1vw 2.5vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 1024px) {
+    .packageCol {
+        width: 100%;
+    }
+
+    .featureList li {
+        font-size: 1.7rem;
+    }
+}

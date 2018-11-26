@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <title>estheto | Welcome</title>
+    <link rel="stylesheet" href="resources/css/services.css">
+    <link rel="stylesheet" href="resources/css/rotatingtext.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <input type="button" onclick="topFunction()" id="myBtn" title="Go to top" value="top" />
+    <!--   header    -->
+    <header>
+        <div class="main-nav-bar sticky" id="navbar">
+
+            <div class="branding">
+                <h1>estheto</h1>
+                <h4>innovating esthetic solutions</h4>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="/index.html#whyus">Why Us</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--   header    -->
+
+    <!--    page body    -->
+    <section class="section-features">
+        <div class="row">
+            <h2>Resonsive Webiste Design</h2>
+            <p class="long-copy">Responsive websites are the wesites which gives its users best experience on any kind of devices mobile, PC or tablet. Choose your website package from below :-</p>
+        </div>
+        <div class="row">
+            <div class="packageCol">
+                <ul class="featureList">
+                    <li class="header">Static Websites</li>
+                    <li>College/School Websites, Marriage e-Cards, Portfolios, Other Static Business Websites</li>
+                    <li>Upto 6 Web Pages</li>
+                    <li>Fully Responsive<br>(Mobile/PC/Tablet)</li>
+                    <li>Basic SEO</li>
+                    <li>Free Maintenance Support (upto 30 days)</li>
+                    <li class="paid"><input type="checkbox" class="additional-features-static" onclick="modifyPrice(500, this, 'staticPrice')"> Admin Panel </li>
+                    <li class="paid"><input type="checkbox" class="additional-features-static" onclick="modifyPrice(300, this, 'staticPrice')"> Logo Design</li>
+                    <li class="paid"><input type="checkbox" class="additional-features-static" onclick="modifyPrice(1000, this, 'staticPrice')"> Additional 12 months Maintainance Support</li>
+                    <li class="price" id="staticPrice">Total Cost : ₹ 2999\-</li>
+                    <li class="order"><a class="orderButton" href="contactus.html">Order</a></li>
+                </ul>
+            </div>
+            <div class="packageCol">
+                <ul class="featureList">
+                    <li class="header">Dynamic Webistes</li>
+                    <li>Websites with database support, Forum Websites, Other Dynamic Business Websites</li>
+                    <li>Pages as per requirement</li>
+                    <li>Fully Responsive<br>(Mobile/PC/Tablet)</li>
+                    <li>SEO Optimized</li>
+                    <li>Free Maintenance Support (upto 90 days)</li>
+                    <li>With Rich Admin Panel</li>
+                    <li>Logo Design</li>
+                    <li class="paid"><input type="checkbox" class="additional-features-static" onclick="modifyPrice(1000, this, 'dynamicPrice')"> Additional 12 months Maintainance Support</li>
+                    <li class="price" id="dynamicPrice">Total Cost : ₹ 5999\-</li>
+                    <li class="order"><a class="orderButton" href="contactus.html">Order</a></li>
+                </ul>
+            </div>
+            <div class="packageCol">
+                <ul class="featureList">
+                    <li class="header">Custom Websites</li>
+                    <li>e-Commerce Websites, Social Media Websites and Other Custom requirement websites</li>
+                    <li>Pages as per requirement</li>
+                    <li>Fully Responsive<br>(Mobile/PC/Tablet)</li>
+                    <li>SEO Optimized</li>
+                    <li>Free Maintenance Support (upto 120 days)</li>
+                    <li>With Specialized Admin Panel</li>
+                    <li>Logo Design</li>
+                    <li class="paid"><input type="checkbox" class="additional-features-static" onclick="modifyPrice(1000, this, 'customPrice')"> Additional 12 months Maintainance Support</li>
+                    <li class="price" id="customPrice">Total Cost : ₹ 9999\-</li>
+                    <li class="order"><a class="orderButton" href="contactus.html">Order</a></li>
+                </ul>
+            </div>
+            <div class="tableNote">
+                <p>*features in <span class="paid">Blue</span> are paid features, additional to the base package</p>
+            </div>
+        </div>
+    </section>
+    <!--    page body    -->
+
+    <!--    <footer>-->
+    <div class="footer-main">
+        <div class="quote-bar">
+            <p>Let's create something amazing<br>
+                <i class="fas fa-arrow-down"></i></p>
+
+        </div>
+        <div class="footer-box">
+            <ul>
+                <li><a href="/index.html#services">Services</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Galary</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+
+        </div>
+        <div class="footer-box-middle branding">
+            <h1><a href="index.html">estheto</a></h1>
+            <h4>innovating esthetic solutions</h4>
+            <div class="social-buttons">
+                <a href="#"><i class="fab fa-facebook-square social-button"></i></a>
+                <a href="#"><i class="fab fa-twitter-square social-button"></i></a>
+                <a href="#"><i class="fab fa-instagram social-button"></i></a>
+                <a href="#"><i class="fab fa-linkedin social-button"></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <ul>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="copyright-message">
+            <p>© 2018 Estheto. All Rights Reserved.</p>
+        </div>
+    </div>
+    <!--    </footer>-->
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>

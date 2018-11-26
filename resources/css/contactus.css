@@ -13,7 +13,7 @@
     display: block;
     width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 250%;
     padding: 1.5rem 0 0 0;
 }
 
@@ -21,24 +21,24 @@
     color: #271404;
 }
 
-.contact-us-body h2{
-    font-size: 2rem;
+.contact-us-body h2 {
+    font-size: 200%;
     font-weight: 500;
     padding: 2rem 0;
     color: #83450f;
 }
 
-.contact-us-body span{
+.contact-us-body span {
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
 }
 
-.contact-us-body input{
+.contact-us-body input {
     display: block;
-    width:80%;
-    height:2.5rem;
+    width: 80%;
+    height: 2.5rem;
     margin-top: 0.3rem;
     font-size: 1.2rem;
     font-weight: 400;
@@ -47,17 +47,17 @@
     outline-color: #83450f;
 }
 
-.contact-us-body textarea{
-    width:80%;
-    height:15%;
+.contact-us-body textarea {
+    width: 80%;
+    height: 15%;
     margin-top: 0.3rem;
     font-size: 1.2rem;
     font-weight: 400;
     color: #271404;
 }
 
-.contact-us-body button{
-    width:35%;
+.contact-us-body button {
+    width: 35%;
     height: 3rem;
     margin-top: 0.3rem;
     font-size: 1.3rem;
@@ -71,8 +71,8 @@
     transition: background-color 0.5s, color 0.5s;
 }
 
-.contact-us-body button:hover{
-    width:35%;
+.contact-us-body button:hover {
+    width: 35%;
     height: 3rem;
     margin-top: 0.3rem;
     font-size: 1.3rem;
@@ -104,7 +104,8 @@
     font-size: 1.15rem;
 }
 
-.FAQ-details:after, .Call-Us:after {
+.FAQ-details:after,
+.Call-Us:after {
     display: block;
     height: 1px;
     background-color: #83450f;
@@ -114,6 +115,28 @@
     margin-top: 30px;
 }
 
-body {
-/*    background-color: #fcf2e8;*/
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 750px) {
+
+    .contact-us-form,
+    .other-info-bar {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .other-info-bar {
+        margin-top: 6vw;
+    }
+
+    .FAQ-details:after,
+    .Call-Us:after {
+        width: 100%;
+    }
+
+    .contact-us-body input {
+        margin-left: 10%;
+    }
 }
